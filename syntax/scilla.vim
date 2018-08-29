@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language: Scilla
 " Filenames: *.scilla
-" Maintainer: Edison LIM (edison.limjh@gmail.com)
+" Maintainer: Edison LIM (edison@zilliqa.com)
 " URL: https://github.com/edisonljh/vim-scilla 
 
 if exists("b:current_syntax")
