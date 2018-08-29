@@ -20,7 +20,7 @@ syn keyword scillaConstant      Nil Zero Succ
 syn keyword scillaConstant      eq add sub mul lt eq concat Cons
 syn keyword scillaConstant      substr dist sha256 put get remove contains[] blt badd
 syn keyword scillaTypes         Uint32 Int32 Uint64 Int64 Uint128 Int128 Uint256 Int256
-syn keyword scillaTypes         String Hash Bool Map Address BNum Option List Message
+syn keyword scillaTypes         String Bool Map BNum Option List Message ByStr20 ByStr32
 syn keyword scillaStdlib        ListUtils BoolUtils NatUtils PairUtils
 syn keyword scillaStdlibMethods andb orb negb list_head list_tail list_filter list_map list_append list_reverse
 syn keyword scillaStdlibMethods list_sort list_exists list_forall list_find list_zip list_zip_with list_unzip list_to_map list_nth 
