@@ -19,10 +19,10 @@ syn keyword scillaConstant      Nil Zero Succ
 syn keyword scillaConstant      eq add sub mul lt eq concat Cons
 syn keyword scillaConstant      substr dist sha256 put get remove contains[] blt badd
 syn keyword scillaTypes         Uint32 Int32 Uint64 Int64 Uint128 Int128 Uint256 Int256
-syn keyword scillaTypes         String Bool Map BNum Option List Message ByStr20 ByStr32
-syn keyword scillaStdlib        ListUtils BoolUtils NatUtils PairUtils
+syn keyword scillaTypes         String Bool Map BNum Option List Message ByStr20 ByStr32 ByStr64 ByStr
+syn keyword scillaStdlib        ListUtils BoolUtils NatUtils PairUtils Schnorr
 syn keyword scillaStdlibMethods andb orb negb list_head list_tail list_filter list_map list_append list_reverse
-syn keyword scillaStdlibMethods list_sort list_exists list_forall list_find list_zip list_zip_with list_unzip list_to_map list_nth 
+syn keyword scillaStdlibMethods list_sort list_exists list_forall list_find list_zip list_zip_with list_unzip list_to_map list_nth schnorr_sign schnorr_verify schnorr_gen_key_pair to_bystr 
 syn keyword scillaStdlibMethods nat_prev is_some_zero nat_eq nat_to_int uint32_to_nat_helper uint32_to_nat uint64_to_nat uint128_to_nat int32_to_nat int64_to_nat int128_to_nat
 syn keyword scillaStdlibMethods fst snd
 
