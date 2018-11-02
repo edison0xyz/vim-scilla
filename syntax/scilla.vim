@@ -12,7 +12,7 @@ setlocal commentstring=(*%s*)
 " Scilla is case-sensitive
 syn case match
 
-syn keyword scillaKeyword       send event match with end fun let in builtin accept import
+syn keyword scillaKeyword       send event match with end fun let in builtin accept import delete exists
 syn keyword scillaKeyword       Some None _tag _eventname Main _sender _amount field _recipient
 syn keyword scillaConstant      True False library Emp contract
 syn keyword scillaConstant      Nil Zero Succ 
