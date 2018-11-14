@@ -17,7 +17,7 @@ syn keyword scillaKeyword       Some None _tag _eventname Main _sender _amount f
 syn keyword scillaConstant      True False library Emp contract
 syn keyword scillaConstant      Nil Zero Succ 
 syn keyword scillaConstant      eq add sub mul lt eq concat Cons
-syn keyword scillaConstant      substr dist sha256 put get remove contains[] blt badd
+syn keyword scillaConstant      substr dist sha256hash put get remove contains[] blt badd
 syn keyword scillaTypes         Uint32 Int32 Uint64 Int64 Uint128 Int128 Uint256 Int256
 syn keyword scillaTypes         String Bool Map BNum Option List Message ByStr20 ByStr32 ByStr64 ByStr
 syn keyword scillaStdlib        ListUtils BoolUtils NatUtils PairUtils Schnorr
