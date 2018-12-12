@@ -14,7 +14,7 @@ syn case match
 
 syn keyword scillaKeyword       send event match with end fun let in builtin accept import delete exists
 syn keyword scillaKeyword       Some None _tag _eventname Main _sender _amount field _recipient
-syn keyword scillaConstant      True False library Emp contract
+syn keyword scillaConstant      True False library Emp contract scilla_version
 syn keyword scillaConstant      Nil Zero Succ 
 syn keyword scillaConstant      eq add sub mul lt eq concat Cons
 syn keyword scillaConstant      substr dist sha256hash put get remove contains[] blt badd
