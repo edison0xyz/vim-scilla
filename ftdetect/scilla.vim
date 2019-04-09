@@ -1,1 +1,1 @@
-au BufNewFile,BufRead *.scilla setf scilla
+au BufNewFile,BufRead *.scill* setf scilla
