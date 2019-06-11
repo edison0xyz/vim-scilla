@@ -22,7 +22,8 @@ Here is how to enable it:
 
 1. Install [ALE](https://github.com/w0rp/ale) vim plugin
 2. Make `scilla-checker` executable available
-3. Set STDLIB dir in vimrc: `let g:ale_scilla_checker_libdir = '<path>/scilla/src/stdlib'`
+3. Set STDLIB dir in vimrc: `let g:ale_scilla_checker_libdir = '<path>/stdlib'`
+4. Set CHECKER in vimrc: ` let g:ale_scilla_checker_executable='<path>/scilla-checker'`
 4. Enable the linter in vimrc: `autocmd FileType scilla let b:ale_linters = ['checker']`
 5. Open any scilla file and ensure checker is working: `:ALEInfo`
 
