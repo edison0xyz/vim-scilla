@@ -27,6 +27,10 @@ Here is how to enable it:
 5. Enable the linter in vimrc: `autocmd FileType scilla let b:ale_linters = ['checker']`
 6. Open any scilla file and ensure checker is working: `:ALEInfo`
 
+## Commenting
+
+Comment functionality is available through [NERDCommenter](https://github.com/scrooloose/nerdcommenter). It's not natively supported on this plugin yet. PRs are welcome!
+
 ## License
 
 See [LICENSE](./LICENSE)
