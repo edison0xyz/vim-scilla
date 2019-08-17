@@ -16,7 +16,7 @@ function! HandleScillaChecker(buffer, lines) abort
     let l:output = []
     for l:error in l:errors
         let l:start_location = l:error['start_location']
-        let l:message = trim(l:error['error_message'])
+        let l:message = l:error['error_message']
         let l:last_symbol = l:message[len(message) - 1]
         if l:last_symbol != ':'
             call add(l:output, {
