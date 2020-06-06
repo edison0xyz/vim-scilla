@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language: Scilla
 " Filenames: *.scilla
-" Maintainer: Edison LIM (edison@zilliqa.com)
+" Maintainer: Edison LIM (edison.limjh@gmail.com)
 " URL: https://github.com/edisonljh/vim-scilla 
 if exists("b:current_syntax")
       finish
@@ -24,7 +24,7 @@ syn keyword scillaStdlib        ListUtils BoolUtils NatUtils IntUtils PairUtils 
 syn keyword scillaStdlibMethods andb orb negb list_head list_tail list_filter list_map list_append list_reverse
 syn keyword scillaStdlibMethods list_sort list_length list_exists list_forall list_find list_zip list_zip_with list_unzip list_to_map list_nth to_list size 
 syn keyword scillaStdlibMethods schnorr_sign schnorr_verify schnorr_gen_key_pair to_bystr keccak256hash ripemd160hash  
-syn keyword scillaStdLibMethods to_string substr
+syn keyword scillaStdLibMethods to_string substr strlen
 syn keyword scillaStdlibMethods nat_prev is_some_zero nat_eq nat_to_int uint32_to_nat_helper uint32_to_nat uint64_to_nat uint128_to_nat int32_to_nat int64_to_nat int128_to_nat
 syn keyword scillaStdlibMethods fst snd bool_to_string
 
