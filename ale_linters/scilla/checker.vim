@@ -34,7 +34,7 @@ endfunction
 call ale#linter#Define('scilla', {
 \   'name': 'checker',
 \   'executable': {b -> ale#Var(b, 'scilla_checker_executable')},
-\   'command': {b -> '%e  -jsonerrors -libdir '.ale#Var(b, 'scilla_checker_libdir').' %t'},
+\   'command': {b -> '%e  -jsonerrors -gaslimit 100000 -libdir '.ale#Var(b, 'scilla_checker_libdir').' %t'},
 \   'output_stream': 'both',
 \   'callback': {b, l -> HandleScillaChecker(b, l)},
 \})
